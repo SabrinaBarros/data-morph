@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "description": "Mask-based data formatting.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "lint": "node_modules/.bin/eslint index.js"
   },
   "repository": {
@@ -27,6 +28,6 @@
   "devDependencies": {
     "chai": "^5.1.0",
     "eslint": "^9.0.0",
-    "jest": "^29.7.0"
+    "mocha": "^10.4.0"
   }
 }
